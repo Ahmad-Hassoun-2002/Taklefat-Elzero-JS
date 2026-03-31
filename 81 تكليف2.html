@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .options{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+ul{
+  list-style: none;
+}
+.font{
+  text-align: center;
+}
+.font>li{
+  cursor: pointer;
+}
+.color{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.color>li{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+.color li:nth-child(1){
+  background-color: red;
+}
+.color li:nth-child(2){
+  background-color: blue;
+}
+.color li:nth-child(3){
+  background-color: green;
+}
+.color li:nth-child(4){
+  background-color: yellow;
+}
+.color li:nth-child(5){
+  background-color: pink;
+}
+.color li:nth-child(6){
+  background-color: orange;
+}
+.size-box input{
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+.test_div{
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <div class="options">
+        <ul class="font">
+          <li class="active" data-font="Sans">Sans</li>
+          <li data-font="Cairo">Cairo</li>
+          <li data-font="Roboto">Roboto</li>
+        </ul>
+        <ul class="color">
+          <li class="active" data-color="red"></li>
+          <li data-color="blue"></li>
+          <li data-color="green"></li>
+          <li data-color="yellow"></li>
+          <li data-color="pink"></li>
+          <li data-color="orange"></li>
+        </ul>
+        <div class="size-box">
+          <input type="number" min="16" max="30" class="font-size">
+        </div>
+      </div>
+        <div class="test_div">
+          This Div For Testing
+        </div>
+        <script src="./81 تكليف2.js"></script>
+</body>
+</html>

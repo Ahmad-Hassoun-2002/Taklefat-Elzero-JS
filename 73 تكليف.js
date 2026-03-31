@@ -1,0 +1,13 @@
+let a = document.querySelector(".our-element");
+let c = document.createElement("div");
+let e = document.createElement("div");
+c.innerHTML = "Start";
+c.className = "start";
+c.title = "Start Element";
+c.setAttribute("data-value" , "Start");
+a.before(c);
+e.innerHTML = "END";
+e.className = "END";
+e.title = "END Element";
+e.setAttribute("data-value" , "END");
+a.after(e);
