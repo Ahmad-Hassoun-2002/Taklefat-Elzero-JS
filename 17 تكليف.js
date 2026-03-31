@@ -1,0 +1,2 @@
+console.log((((Number.MAX_SAFE_INTEGER)/(Number.MAX_SAFE_INTEGER)) + true + true + ((Number.MAX_SAFE_INTEGER)/(Number.MAX_SAFE_INTEGER))) ** (((Number.MAX_SAFE_INTEGER)/(Number.MAX_SAFE_INTEGER)) + ((Number.MAX_SAFE_INTEGER)/(Number.MAX_SAFE_INTEGER)))); // 16
+console.log(Number.MAX_SAFE_INTEGER.toString().length); // هيدي الأصح

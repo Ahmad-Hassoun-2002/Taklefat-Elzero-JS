@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+        // Code One
+        document.getElementById("el").style.color = "red"; 
+        // This code wont work becouse the JS languge is work line by line and this line is before the h1
+    </script>
+    <script>
+        // Code Two
+        window.onload = function () {
+        document.getElementById("el").style.color = "red";
+        };
+        // This code will work becouse when the page is load the function will work
+    </script>
+    </head>
+    <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+        // Code Three
+        document.getElementById("el").style.color = "red";
+        // This code is perfect
+    </script>
+    </body>
+</html>
